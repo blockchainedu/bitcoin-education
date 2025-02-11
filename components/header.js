@@ -49,7 +49,7 @@ export default function HeaderWithLogo({ className = "", children }) {
           <li className="flex justify-end items-center">
             {scrolled == true && !shouldHideButton && (
               <>
-
+                <li className="display-on-scroll px-4 font-semibold"><a href="/hackerHouse">Hacker House</a></li>
                 <li className="display-on-scroll px-4 font-semibold"><a href="/sponsor">Sponsor</a></li>
                 <Menu>
                   <div className="relative px-4 pr-1"> {/* Added positioning wrapper */}
